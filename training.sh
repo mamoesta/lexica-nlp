@@ -1,0 +1,1 @@
+spacy train prompt_config.cfg --output ./results-no-other --paths.train train.spacy --paths.dev train.spacy

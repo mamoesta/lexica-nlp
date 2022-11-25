@@ -1,4 +1,5 @@
-results/
+results*/
 .ipynb_checkpoints/
 counter.txt
 train.spacy
+*.spacy
