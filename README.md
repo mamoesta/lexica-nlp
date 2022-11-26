@@ -14,3 +14,4 @@ See `./main.ipynb` for a walkthrough. This is an e2e project:
 * Train model
 * Import an evaluation set of prompts from a [huggingface](https://huggingface.co/) dataset. Generate predictions for HF prompts.
 * Eval set predictions @ `./eval/entities.html`
+* You can review model predictions on holdout data [here](https://htmlpreview.github.io/?https://github.com/mamoesta/lexica-nlp/blob/main/eval-viz/entities.html)
