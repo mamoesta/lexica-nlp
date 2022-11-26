@@ -1,1 +1,1 @@
-spacy evaluate ./results/model-best ./eval-docs.spacy --output ./eval-viz/eval.json --displacy-path ./eval-viz/ --displacy-limit 100
+spacy evaluate ./results/model-best ./eval-docs.spacy --output ./eval/eval.json --displacy-path ./eval/ --displacy-limit 100
