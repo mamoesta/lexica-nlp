@@ -6,10 +6,10 @@ Some novel applications of this model:
 
 See `./main.ipynb` for a walkthrough. This is an e2e project:
 
-* Generate random search strings to poll [lexica.art](https://lexica.art/) API to bootstrap a dataset of prompts.
-* Query Lexica serach API and deal with rate limitng. Store prompts and image URL.
-* Use [Label Studio](https://labelstud.io/) to annotate ~ 230 prompts to identify artsist name.
-* Experiment: Use BART outputs to generate weak labels for the remaining 19k collected datapoints. Note: Fine-tuning a transformer model with 230 ground truth generated strong enough performance such that weak labels did not prove necessary.
+* Generate random search strings to poll [lexica.art](https://lexica.art/) API to bootstrap a dataset of prompts. I developed this project before the larger HF dataset became available.
+* Query Lexica serach API and deal with rate limiting. Store prompts and image URL.
+* Use [Label Studio](https://labelstud.io/) to annotate ~ 230 prompts to identify artist's name.
+* Experiment: Use BART outputs to generate weak labels for the remaining 19k collected datapoints. Note: Fine-tuning a transformer model with 230 ground truth generated strong enough performance such that weak labels did not prove necessary for this proof-of-concept.
 * Concat label studio GT with prompts dataframe. Convert dataframe --> spacy Docs to prepare for training.
 * Train model
 * Import an evaluation set of prompts from a [huggingface](https://huggingface.co/) dataset. Generate predictions for HF prompts.
